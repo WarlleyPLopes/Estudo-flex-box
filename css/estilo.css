@@ -7,7 +7,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: #FDFDFF;
 }
+
 
 .encapsulador {
     display: flex;
@@ -17,11 +19,9 @@ body {
     flex-wrap: wrap;
     align-content: center;
     column-gap: 32px;
-    background-color: #FDFDFF;
-    
-    height: 100vh;
+
+    height: 90vh;
     width: 100vw;
-    
 }
 .caixa-1, .caixa-2, .caixa-3 {
     width: 180px;
