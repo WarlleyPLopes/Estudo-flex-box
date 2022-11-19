@@ -7,9 +7,8 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #FDFDFF;
+    color: #393D3F;
 }
-
 
 .encapsulador {
     display: flex;
@@ -19,7 +18,7 @@ body {
     flex-wrap: wrap;
     align-content: center;
     column-gap: 32px;
-
+    
     height: 90vh;
     width: 100vw;
 }
@@ -30,7 +29,6 @@ body {
     text-align: center;
     font-size: 32px;
     border-radius: 20px;
-    color: #393d3f;
 }
 
 .caixa-1 {
@@ -44,3 +42,8 @@ body {
 .caixa-3 {
     background-color: #546A7B;
 }
+
+body.dark {
+    background-color: #393D3F;
+    color: #FDFDFF;
+} 
