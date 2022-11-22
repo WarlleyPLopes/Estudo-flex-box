@@ -7,7 +7,9 @@ html {
 body {
     margin: 0;
     padding: 0;
+    background-color: #FDFDFF;
     color: #393D3F;
+    transition: background-color 2s, color 2s;
 }
 
 .encapsulador {
@@ -46,4 +48,5 @@ body {
 body.dark {
     background-color: #393D3F;
     color: #FDFDFF;
+    transition: background-color 2s, color 2s;
 } 
